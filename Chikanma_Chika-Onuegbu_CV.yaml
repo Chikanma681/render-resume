@@ -1,0 +1,102 @@
+cv:
+  name: Chikanma Chika-Onuegbu
+  location: Edmonton, AB
+  email: chikanmaonuegbu@gmail.com
+  phone: "+15875016656"
+  website: "https:chikanma.gg"
+  social_networks:
+    - network: LinkedIn
+      username: Chikanma Chika-Onuegbu
+    - network: GitHub
+      username: https://github.com/Chikanma681
+  sections:
+    experience:
+      - company: Faculty of Skin
+        position: Software Engineer
+        location: Edmonton, AB
+        start_date: 2024-03
+        end_date: "present"
+        highlights:
+          - Developed a function to create new customer records for Google BigQuery, enhancing the efficiency of data management and ensuring accurate record-keeping.
+          - Designed and implemented a user friendly form using React.js, allowing seamless interaction for users to join the platform and engage with Faculty of Skin services.
+          - Established a CI/CD pipeline to automate the deployment process for cloud functions, resulting in faster and more reliable updates to the application while maintaining continuous integration and delivery standards.
+      - company: Udemy Inc.
+        position: Course Instructor
+        location: Remote
+        start_date: 2020-05
+        end_date: "present"
+        highlights:
+          - Created and taught 2 online programming courses on Udemy, reaching over 20,000+ students.
+          - Received positive feedback and reviews from students with one of my courses once being rated 4.5 stars out of 5.
+    projects:
+    - name: BiteExpress
+      date: "August 2023"
+      highlights:
+        - " \\textbf{Description}: Developed a comprehensive food delivery application leveraging TypeScript React, Django, and NodeJS technologies."
+        - Implemented an intuitive, user-friendly interface using React for a seamless ordering experience.
+        - Managed user authentication and data retrieval efficiently through Django as the backend framework.
+        - Integrated Stripe API with NodeJS to facilitate secure payments and transactions.
+        - Deployed and maintained the website on AWS EC2 using NGINX for robust hosting and performance.
+    - name: Rentscape
+      date: "July 2022"
+      highlights:
+        - " \\textbf{Description}: Developed a comprehensive, end-to-end web application using the MERN stack (MongoDB, Express.js, React, Node.js) facilitating connections between potential tenants and landlords."
+        - Implemented secure signup and login functionalities.
+        - Designed and implemented a user-friendly interface for browsing and searching available houses.
+        - Leverage MongoDB for database management, Express.js for robust server-side development, React for a dynamic and responsive front-end, and Node.js for efficient backend functionality.
+    - name: Distance Matrix Chatbot
+      highlights:
+        - " \\textbf{Description}: Developed a chatbot using RASA framework for natural language processing."
+        - Used Django to handle the user interface and interactions.
+        - Used Google Maps API to estimate the travel time between two locations using real-time traffic data.
+    additional_experience_and_awards:
+      - label: HackED 2024 (Winner) | University of Alberta
+        details: Won the Department of Chemical and Materials Engineering award for the solo development of ChemQuest, a simulation tool enabling better understanding of chemical engineering concepts.
+    education:
+      - institution: University of Alberta
+        area: Engineering
+        degree: BSc
+        start_date: 2020-10
+        end_date: 2025-06
+        highlights:
+          - Recieved Faculty of Engineering Gold Scholarship for high performing students
+    skills:
+    - label: Languages
+      details: Python, JavaScript, TypeScript, HTML, CSS, MATLAB, Java, Golang, C++
+    - label: Tools & Frameworks
+      details: React, Node, MongoDB, Flask, Django, Express, CI/CD, Jenkins, GitHub Actions, Firebase, Git, Linux, Stripe API, Postman, AWS, NGINX
+    - label: Databases
+      details: MySQL, PostgreSQL, MongoDB, Google BigQuery
+design:
+  theme: classic
+  font_size: 10pt
+  page_size: a4paper
+  color: black
+  disable_external_link_icons: false
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 20 pt
+  text_alignment: left-aligned
+  margins:
+    page:
+      top: 1 cm
+      bottom: 1 cm
+      left: 1 cm
+      right: 1 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 2.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 5 pt
+      bottom: 5 pt
+      horizontal_between_connections: 10 pt
